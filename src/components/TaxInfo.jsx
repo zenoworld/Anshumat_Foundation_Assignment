@@ -13,7 +13,7 @@ const TaxInfo = () => {
             TaxInfoData.map((data, index) => (
               <div 
               key={index}
-              className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md"
+              className="bg-white dark:bg-gray-900 p-6 rounded-xl shadow-md cursor-pointer"
               >
                 <h3 className="text-xl font-semibold mb-3 text-gray-700 dark:text-white">{data.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">

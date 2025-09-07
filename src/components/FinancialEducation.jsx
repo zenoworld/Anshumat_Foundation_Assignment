@@ -13,7 +13,7 @@ const FinancialEducation = () => {
             FinancialEducationData.map((data, index) => (
               <div
                 key={index}
-                className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow hover:shadow-lg transition cursor-pointer"
+                className="p-6 bg-gray-50 dark:bg-gray-800 rounded-xl shadow hover:shadow-lg transition cursor-pointer hover:rotate-12 hover:shadow-blue-400"
               >
                 <h3 className="text-xl text-gray-700 dark:text-white font-semibold mb-2">{data.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">{data.content}</p>

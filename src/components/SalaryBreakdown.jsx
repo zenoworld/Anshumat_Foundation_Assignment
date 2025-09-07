@@ -13,7 +13,7 @@ const SalaryBreakdown = () => {
             SalaryBreakdownData.map((data, index) => (
               <div
                 key={index}
-                className="bg-white dark:bg-gray-900  p-6 rounded-xl shadow-xl">
+                className="bg-white dark:bg-gray-900  p-6 rounded-xl shadow-xl cursor-pointer">
                 <h3
                   className="text-xl text-gray-700 dark:text-white font-semibold mb-2">{data.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400">{data.content}</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { navbarMenuItems } from "../data";
 import DarkToggle from "./DarkToggle";
 
 const Navbar = () => {
@@ -8,11 +9,11 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold text-blue-600 dark:text-blue-400">Salaryfy.io</h1>
         <div className="flex items-center gap-4">
           <ul className="hidden md:flex gap-6 text-gray-700 dark:text-gray-300">
-            <li className="hover:text-blue-500 cursor-pointer">Home</li>
-            <li className="hover:text-blue-500 cursor-pointer">Breakdown</li>
-            <li className="hover:text-blue-500 cursor-pointer">Tax Info</li>
-            <li className="hover:text-blue-500 cursor-pointer">Education</li>
-            <li className="hover:text-blue-500 cursor-pointer">Calculator</li>
+            {
+              navbarMenuItems.map((item, index) => (
+                <li key={index} className="hover:text-blue-500 cursor-pointer">{item.name}</li>
+              ))
+            }
           </ul>
           <DarkToggle />
         </div>

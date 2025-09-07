@@ -8,7 +8,7 @@ const TaxInfo = () => {
           Tax Information
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8">
           {
             TaxInfoData.map((data, index) => (
               <div 

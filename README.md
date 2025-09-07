@@ -1,12 +1,28 @@
-# React + Vite
+# Salaryfy.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A financial awareness and empowerment platform that helps individuals understand their salary, taxation, and investments.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Salary Breakdown Section
+- Tax Information
+- Financial Education Topics
+- Simple Tax Calculator
+- Responsive Design (Mobile + Desktop)
+- Dark/Light Mode
+- Built with React + TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React (Vite)
+- TailwindCSS (Latest)
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+## 📂 Project Setup
+```bash
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Deployment
+https://anshumat-foundation-assignment.vercel.app/
+
+👨‍💻 Author
+Developed by Subhro
